@@ -12,11 +12,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#if canImport(FoundationEssentials)
+//#if canImport(FoundationEssentials)
 import FoundationEssentials
-#else
-import Foundation
-#endif
+//#else
+//import Foundation
+//#endif
 
 @propertyWrapper
 public struct ISO8601Coding: Decodable, Sendable {
